@@ -1,14 +1,23 @@
-/** 
+/**
  * Ex-02: isEven()
  *
- * Write a function called isEvent that takes an integer and returns 
+ * Write a function called isEvent that takes an integer and returns
  * true or false based on whether that integer is odd or even
- * 
+ *
 **/
+//
+// INPUT: random number
+// OUTPUT: boolean - true for even, false for odd
 
+var isEven = function (num){
 
+  if (num % 2 === 0) {
+    return true
+  } else {
+    return false
+  }
 
-
+}
 
 
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
